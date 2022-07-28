@@ -1,0 +1,18 @@
+.yourposts{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.posts{
+    width: 150%;
+    margin: 8% 0%;
+    padding: 10%;
+    border: gray solid 2px;
+    border-radius: 10px;
+}
+.author{
+    color: gray;
+}
+.team{
+    margin-top: 30%;
+}

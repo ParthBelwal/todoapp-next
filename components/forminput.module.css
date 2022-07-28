@@ -1,0 +1,9 @@
+/* .formgroup{
+    size: 40px;
+} */
+.formcontrol{
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+}

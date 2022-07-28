@@ -22,5 +22,4 @@ function LinkBigButton(props){
         <button  className={classes.big}>{props.name}</button></Link>
     )
 }
-export default linkbutton;
-export {BigButton,SmallButton,LinkBigButton};
+export {BigButton,SmallButton,LinkButton,LinkBigButton};

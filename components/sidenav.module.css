@@ -1,0 +1,16 @@
+.sidenav {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.loginmaintext{
+    margin-top: 50%;
+    padding: 60px;
+    size: 100px;
+    color: #fff;
+    transform: rotate(270deg);
+}

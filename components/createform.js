@@ -41,7 +41,7 @@ function CreateLoginForm(){
             <FormInput title="Email" type="email" placeholder ="abc@gmail.com" name="email" />
             <FormInput title="Password" type="password" placeholder ="Password" name="password" />
             <SmallButton name="Login" />
-            <LinkButton link="/register" name="registration" />
+            <LinkButton link="/register" name="Registration" />
             
         </form></div>
     )
