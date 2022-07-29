@@ -1,12 +1,13 @@
-.big:hover{
+.big:hover,.sign:hover{
     background-color: #000;
     color: #FFF;
     cursor: pointer;
   }
-.small:hover{
+.small:hover,.link:hover{
   background-color: #FFF;
   color: #000;
   border: #000 solid 2px; 
+  cursor: pointer;
 }
 .small{
   height: 50px;
@@ -25,11 +26,20 @@
   border-radius: 10px;
   color: black;
 }
+.sign{
+   
+  height: 50px;
+  width: 80%;
+margin: 30% 10%;
+background-color:white;
+border-radius: 10px;
+color: black;
+}
 .link{
   margin: 20px;
-    height: 50px;
-    margin:0% 2%;
-    width:100px;
+    height: 40px;
+    margin:0% 1%;
+    width:90px;
     color: #FFF;
     background-color: gray;
     border-radius: 10px;

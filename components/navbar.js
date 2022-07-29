@@ -1,12 +1,13 @@
 import classes from "./navbar.module.css"
-import LinkButton from "./buttons.js"
-function Navbar(){
+import { SignOut } from "./buttons.js";
+import {LinkButton} from "./buttons.js"
+function Navbar(props){
     return(
-            <span className={classes.navbar}>Hello <span>
+            <div className={classes.navbar}><h1>Hello {props.name}</h1><span >
                 <LinkButton link="/teams" name="Teams" />
                 <LinkButton link="/profile" name="Profile" />
-                <LinkButton link="/" name="SignOut" /></span>
-                </span>
+                <SignOut name="Sign Out" />
+                </span></div>
     )
 }
 export default Navbar;
