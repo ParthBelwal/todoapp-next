@@ -1,15 +1,19 @@
-import Link from "next/link"
+import Home from "../index.js"
 import { CreateTeamForm } from "../../components/createform.js"
 import Sidenav from "../../components/sidenav.js"
 import classes from "../index.module.css"
-import { signOut } from "next-auth/react"
+import { useSession } from "next-auth/react"
 import Navbar from "../../components/navbar.js"
-export default function Team(props){
-    return(
-    
+export default function Team(){
+    const {data,session}=useSession();
+    if(data){return(
     <div>
        <Sidenav  pagetitle="Teams"/><div className={classes.main}>
-        <Navbar name={props.name}/>
+        <Navbar name={data.user.name}/>
         <CreateTeamForm /></div>
-    </div>)
+    </div>)}
+    else{
+        return(
+      <Home />)
+    }
 }
